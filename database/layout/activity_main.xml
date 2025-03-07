@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Employee Input Fields -->
+        <EditText
+            android:id="@+id/emp_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Employee Id" />
+        <EditText
+            android:id="@+id/emp_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Employee Name" />
+
+        <EditText
+            android:id="@+id/emp_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Employee Address" />
+
+        <EditText
+            android:id="@+id/emp_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Employee Phone" />
+
+        <EditText
+            android:id="@+id/emp_salary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Employee Salary"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/emp_dept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Department No"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/insert_emp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insert Employee" />
+
+        <!-- Department Input Fields -->
+        <EditText
+            android:id="@+id/dept_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Department Name" />
+        <EditText
+            android:id="@+id/dept_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Department Name" />
+
+        <EditText
+            android:id="@+id/dept_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Department Location" />
+
+        <Button
+            android:id="@+id/insert_dept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insert Department" />
+
+        <!-- Delete Employees by Department Name -->
+        <EditText
+            android:id="@+id/delete_dept_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Department Name to Delete Employees" />
+
+        <Button
+            android:id="@+id/delete_emp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Employees" />
+        <Button
+            android:id="@+id/display_emp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Display Employees" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Display Dept"
+            android:id="@+id/displayDept"/>
+    </LinearLayout>
+</ScrollView>
